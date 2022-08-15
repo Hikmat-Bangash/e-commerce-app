@@ -1,0 +1,76 @@
+
+:root{
+  --red:#ff3838;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.review .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding:1rem;
+    color:#666;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.review .heading span{
+    color:var(--red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+  }
+  
+  .review .box-container .box{
+    text-align: center;
+    padding:1.5rem;
+    border:5px solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    border-radius: .5rem;
+    flex:1 1 15rem;
+    background:#333;
+    margin-top: 6rem;
+    
+  }
+  
+  .review .box-container .box img{
+    height: 8rem;
+    width:8rem;
+    border-radius: 50%;
+    border:2px solid #fff;
+    margin-top: -8rem;
+    object-fit: cover;
+  }
+  
+  .review .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding:.5rem 0;
+  }
+  
+  .review .box-container .box .stars i{
+    font-size: 1rem;
+    color:var(--red);
+    padding:.5rem 0;
+  }
+  
+  .review .box-container .box p{
+    font-size: 1rem;
+    color:#eee;
+    padding:1rem 0;
+  }
+
+  
+  @media (min-width: 250px) and (max-width: 380px){
+    .review .heading{
+      font-size: 1.5rem;
+    }
+    
+  }

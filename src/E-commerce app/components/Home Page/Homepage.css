@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.carousel-inner .carousel-item img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media (min-width: 260px) and (max-width: 768px) {
+    
+    .carousel-inner .carousel-item img{
+        width: 100vw;
+        height: 40vh;
+    }
+}
+ /* for ipad screen size */
+@media ( min-width: 768px) and (max-width: 968px){
+    
+    .carousel-inner .carousel-item img{
+        width: 100vw;
+        height: 70vh;
+    }
+}
